@@ -1,0 +1,96 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size:2em;
+color: #333;
+font: inherit;
+font-family: Candara;
+cursor:pointer;
+}*/
+*{
+	overflow: none;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: auto;
+	font-size: 100%;
+}
+body {
+	color:#444;
+	font-family:"Lucida Console";
+	font-weight:400;
+	font-style:normal;
+	line-height:1.5;
+	position:relative;
+	vertical-align: baseline;
+	cursor:auto;
+	user-select:none;
+	-webkit-user-select:none;
+	margin:0;
+	padding:0;
+}
+
+img {
+	
+	height:auto;
+	-ms-interpolation-mode:bicubic;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+a:hover{
+	color: #D1D1D1;
+	cursor: pointer;
+}
+
+textarea {
+height:auto;
+min-height:50px;
+max-width:100%;
+}
+
+
+
+li{
+	list-style: none;
+	display: block;
+	margin: 0.75rem 0;
+}
+a{
+	text-decoration: none;
+	color: #949494;
+}
+
+h1{
+	font-size: 3rem;
+	font-weight: bold; 
+}
+clearfix:after{
+	content:"";
+	display:block;
+}
+clearfix{
+	display:inline-table;
+}
+
+*,:before,:after {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
